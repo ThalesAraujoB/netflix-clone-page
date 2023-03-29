@@ -1,0 +1,94 @@
+*{ 
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+   background:url(/bg-img.jpg);
+   background-size:cover;
+}
+#nav-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+}
+#netflix-logo{
+    width: 140px;
+    height: 70px;
+}
+#entrar{
+    background-color: red;
+    border-style: solid;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    width: 60px;
+    height:25px;
+    margin-top: 15px;
+}
+#language{
+    background-color: black;
+    opacity: .8;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    color: #fff;
+    font-weight: 500;
+    width: 100px;
+    height:25px;
+    margin: 0 15px;
+}
+h1{
+    font-size:60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 145px;
+}
+#p1{
+    font-size:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+#p2{
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+#email{
+    margin-top: 13px;
+    margin-left: 300px;
+    text-align:left;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: black;
+    opacity: .7;
+    width: 350px;
+    height:45px;
+    margin-left: 450px;
+}
+#botao-2{
+    background-color: red;
+    border-style: solid;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-weight: 200;
+    width: 130px;
+    height:45px;
+    margin-top: 15px;
+}
